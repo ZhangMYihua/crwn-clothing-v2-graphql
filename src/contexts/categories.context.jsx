@@ -19,7 +19,7 @@ const COLLECTIONS = gql`
     }
   }
 `
-///this is testing
+///this is testing #2
 export const CategoriesProvider = ({ children }) => {
   const {loading, error, data} = useQuery(COLLECTIONS)
   const [categoriesMap, setCategoriesMap] = useState({});
